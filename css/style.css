@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Marcellus';
+    src: url('/font/Marcellus-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+    padding: 2rem 0;
+}
+
+header .social-medias {
+    display: none;
+}
+
+.logo h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.main-banner {
+    background-image: url("/assets/coffee-banner.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-banner {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    color: #fff;
+    padding: 5rem 0;
+    height: 100vh;
+}
+
+.coffee-store-icon img {
+    width: 150px;
+    height: 150px;
+}
+
+.coffe-store-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 0 8.2%;
+}
+
+.coffe-store-desc h2 {
+    font-size: 1.7rem;
+}
+
+.coffe-store-desc p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
+}
+
+.btn-view {
+    margin-top: 2.4rem;
+}
+
+.btn-view a {
+    border: 1px solid #fff;
+    padding: 1.4rem 3rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.welcome {
+    padding: 8rem 0;
+}
+
+.welcome p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    padding: 3%;
+}
+
+.about-topic {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.about-desc {
+    text-align: center;
+}
+
+.about-desc h3 {
+    font-size: 1.3rem;
+}
+
+.about-desc p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.life-coffee {
+    background-image: url("/assets/maquina-expresso.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.coffee-phrase {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-image: url("/assets/background-coffee-store2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 0;
+}
+
+.menu p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.menu-images {
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.7rem;
+    padding: 0 3%;
+}
+
+.product {
+    flex-basis: 45%;
+}
+
+.product img {
+    width: 100%;
+}
+
+footer {
+    background-image: url("/assets/background-footer.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 107vh;
+    color: #fff;
+    font-family: "Marcellus", serif;
+}
+
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 107vh;
+    padding: 8rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.phone p {
+    font-size: 1.6rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.social-medias {
+    display: flex;
+    gap: 4rem;
+}
+
+@media (min-width: 1024px) {
+    header {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 2rem 3%;
+    }
+
+    header .social-medias {
+        display: flex;
+        gap: 1.4rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+    }
+
+    nav a {
+        font-size: 1.3rem;
+    }
+
+    .banner-content {
+        max-width: 65%;
+        justify-content: center;
+        gap: 1.2rem;
+    }
+
+    .main-banner .coffe-store-desc {
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .main-banner .coffe-store-desc h2 {
+        font-size: 4rem;
+    }
+
+    .btn-view {
+        margin-top: 2rem;
+    }
+
+    .coffe-store-desc h2 {
+        font-size: 3rem;
+    }
+
+    .coffe-store-desc p {
+        padding: 0 20%;
+    }
+
+    .welcome {
+        padding: 7rem 0;
+    }
+
+    .about {
+        padding: 5%;
+        margin-top: 3rem;
+    }
+
+    .about-topic {
+        flex-basis: 23%;
+        gap: 1.2rem;
+    }
+
+    .about-desc p {
+        font-size: 1rem;
+        line-height: 1.7rem;
+    }
+
+    .menu {
+        padding: 6rem 0;
+    }
+
+    .menu-images {
+        gap: 2rem;
+        padding: 0 5%;
+    }
+
+    .product {
+        flex-basis: 23%;
+    }
+
+    .phone p {
+        font-size: 2.6rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1340px) {
+    .product {
+        flex-basis: 22%;
+    }
+
+    .about-topic {
+        flex-basis: 22%;
+    }
+}

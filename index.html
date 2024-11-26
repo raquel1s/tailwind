@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box.</title>
+
+    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="text-white bg-black justify-center flex-col items-center flex gap-7 py-8">
+        <div class="hidden">
+            <div class="social-medias-icon">
+                <img src="/assets/facebook.png" alt="Facebook">
+            </div>
+            <div class="social-medias-icon">
+                <img src="/assets/twitter.png" alt="Twitter">
+            </div>
+            <div class="social-medias-icon">
+                <img src="/assets/instagram.png" alt="instagram">
+            </div>
+        </div>
+        <div>
+            <h1 class="text-4xl font-extrabold">box.</h1>
+        </div>
+        <nav>
+            <ul class="flex gap-6">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-banner text-white bg-[url('assets/coffee-banner.jpg')] w-full bg-cover bg-center h-screen">
+            <div class="h-screen w-full">
+                <div class="flex flex-col justify-start items-center gap-8 py-20">
+                    <div class="coffee-store-icon w-36 h-36">
+                        <img src="/assets/coffee-store11-2.png" alt="coffee store">
+                    </div>
+                    <div class="flex flex-col justify-center items-center gap-6 px-8">
+                        <h2 class="text-3xl">COFFEE STORE</h2>
+                        <div class="">
+                            <img src="/assets/coffee-divider.png" alt="coffe divider">
+                        </div>
+                        <p class="text-center font-normal leading-8">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore reprehenderit in
+                            voluptate eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="mt-10">
+                        <a class="border-2 py-6 px-12 font-semibold text-sm">VIEW MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-32">
+            <div class="flex flex-col justify-center items-center gap-6 px-6">
+                <h2 class="text-2xl">WELCOME TO COFFEE STORE</h2>
+                <div class="">
+                    <img src="/assets/coffee-divider02.png">
+                </div>
+                <p class="text-gray-600 text-center font-normal leading-8">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua enim ad minim veniam quis nostrud.</p>
+            </div>
+            <div class="flex justify-center items-center gap-7 flex-wrap mt-20 p-6">
+                <div class="w-2/5 flex flex-col items-center gap-5">
+                    <div class="">
+                        <img src="/assets/coffee-store-history.png" alt="History">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl">OUR HISTORY</h3>
+                        <p class="text-gray-600 mt-4 text-sm">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+                            labore dolore.</p>
+                    </div>
+                </div>
+                <div class="w-2/5 flex flex-col items-center gap-5">
+                    <div class="about-icon">
+                        <img src="/assets/coffee-store-makers.png" alt="Makers">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl">COFFEE MAKERS</h3>
+                        <p class="text-gray-600 mt-4 text-sm">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+                            labore dolore.</p>
+                    </div>
+                </div>
+                <div class="w-2/5 flex flex-col items-center gap-5">
+                    <div class="about-icon">
+                        <img src="/assets/coffee-store-taste.png" alt="History">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl">NEW TASTE</h3>
+                        <p class="text-gray-600 mt-4 text-sm">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+                            labore dolore.</p>
+                    </div>
+                </div>
+                <div class="w-2/5 flex flex-col items-center gap-5">
+                    <div class="about-icon">
+                        <img src="/assets/coffee-store-price.png" alt="Taste">
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-xl">GOOD PRICE</h3>
+                        <p class="text-gray-600 mt-4 text-sm">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut
+                            labore dolore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[url('/assets/maquina-expresso.jpg')] bg-cover bg-center h-screen">
+            <div class="coffee-phrase h-screen flex justify-center items-center flex-col">
+                <img src="/assets/coffee-store-life-begins.png" alt="Life begins after coffe">
+            </div>
+        </section>
+        <section class="menu py-32 bg-[url('/assets/background-coffee-store2.jpg')] w-full bg-cover bg-center">
+            <div class="flex flex-col justify-center items-center gap-6 px-6">
+                <h2 class="text-2xl">OUR COFFEE MENU</h2>
+                <div class="diviser">
+                    <img src="/assets/coffee-divider02.png">
+                </div>
+                <p class="text-gray-600 text-center font-normal leading-8">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua enim ad minim veniam quis nostrud.</p>
+            </div>
+            <div class="menu-images mt-24 flex flex-wrap justify-center gap-7 p-6">
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-01.jpg" alt="Latte expresso">
+                </div>
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-02.jpg" alt="Expresso">
+                </div>
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-03.jpg" alt="Croissant">
+                </div>
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-04.jpg" alt="Bread">
+                </div>
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-05.jpg" alt="Cake">
+                </div>
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-06.jpg" alt="Brownie">
+                </div>
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-07.jpg" alt="Lime Drink">
+                </div>
+                <div class="product w-2/5">
+                    <img class="w-full" src="/assets/produtos-08.jpg" alt="Tea">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white">
+        <div class="footer-content flex flex-col justify-center items-center gap-24 bg-[url('/assets/maquina-expresso.jpg')] bg-cover bg-center h-screen">
+            <div class="coffee-store-icon coffee-store-icon w-36 h-36">
+                <img src="/assets/coffee-store11-2.png" alt="coffee store">
+            </div>
+            <div class="phone flex flex-col items-center gap-7">
+                <h3>PHONE</h3>
+                <p class="text-2xl">0800 458 74 58</p>
+            </div>
+            <div class="social flex flex-col items-center gap-10">
+                <h3>SOCIAL</h3>
+                <div class="social-medias flex gap-16">
+                    <div class="social-medias-icon">
+                        <img src="/assets/facebook.png" alt="Facebook">
+                    </div>
+                    <div class="social-medias-icon">
+                        <img src="/assets/twitter.png" alt="Twitter">
+                    </div>
+                    <div class="social-medias-icon">
+                        <img src="/assets/instagram.png" alt="instagram">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
